@@ -13,6 +13,7 @@
 <body>
     <div class="container">
         <h1 class="display-4 heading">Live Clock</h1>
+
         <br>
         <div class="jumbotron">
 
@@ -20,10 +21,14 @@
             <!-- <p class="lead">This is a simple Javascript project on real time clock.</p> -->
             <hr class="my-4 bg-primary">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h1 class="day-align"><span id="day"></span></h1>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
+                    <h1 class="temp-align"><span id="temp">{{ data }}C</span></h1>
+                </div>
+
+                <div class="col-md-4">
                     <h1 class="date-align"><span id="date"></span></h1>
                 </div>
             </div>

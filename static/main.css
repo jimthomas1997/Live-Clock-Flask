@@ -26,6 +26,12 @@
     color: yellowgreen
 }
 
+.temp-align {
+    text-align: center;
+    font-size: 4rem;
+    color: yellowgreen
+}
+
 .jumbotron {
     border: 2px solid black;
     box-shadow: -1rem 0 1rem #000;
