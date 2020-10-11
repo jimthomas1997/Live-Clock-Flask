@@ -19,13 +19,13 @@ def getvalue():
     #new code
 
 
-    import requests, json
+    import requests, json,config
     # base URL
     BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
     # City Name
 
     # API key
-    API_KEY = "602a8432bf3e05f85fa7e8c6be74da56"
+    API_KEY = config.api_key
     # upadting the URL
     name=request.form['name']
     URL = BASE_URL + "q=" + name + "&appid=" + API_KEY
